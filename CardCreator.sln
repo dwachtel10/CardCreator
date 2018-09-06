@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardCreator.Models", "CardCreator\CardCreator.Models.csproj", "{06DA323E-702C-421B-8452-954147DABA43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{2AABE622-2547-401D-970B-981D50E40452}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6FA39D04-443B-4108-BC50-E9F7A7161253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{ACB7088D-031B-4960-8E60-EC0138EA2E15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{75BADD48-3579-48F0-A647-89710C96EAF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardCreator.Data", "CardCreator.Data\CardCreator.Data.csproj", "{1643F80D-EA83-4937-B0FA-B5CDCD9476F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardCreator.UI", "CardCreator.UI\CardCreator.UI.csproj", "{982D32DE-81F3-4C48-B578-F2F22D59573D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06DA323E-702C-421B-8452-954147DABA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DA323E-702C-421B-8452-954147DABA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DA323E-702C-421B-8452-954147DABA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DA323E-702C-421B-8452-954147DABA43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1643F80D-EA83-4937-B0FA-B5CDCD9476F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1643F80D-EA83-4937-B0FA-B5CDCD9476F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1643F80D-EA83-4937-B0FA-B5CDCD9476F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1643F80D-EA83-4937-B0FA-B5CDCD9476F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982D32DE-81F3-4C48-B578-F2F22D59573D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982D32DE-81F3-4C48-B578-F2F22D59573D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982D32DE-81F3-4C48-B578-F2F22D59573D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982D32DE-81F3-4C48-B578-F2F22D59573D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06DA323E-702C-421B-8452-954147DABA43} = {2AABE622-2547-401D-970B-981D50E40452}
+		{1643F80D-EA83-4937-B0FA-B5CDCD9476F7} = {75BADD48-3579-48F0-A647-89710C96EAF8}
+		{982D32DE-81F3-4C48-B578-F2F22D59573D} = {6FA39D04-443B-4108-BC50-E9F7A7161253}
+	EndGlobalSection
+EndGlobal

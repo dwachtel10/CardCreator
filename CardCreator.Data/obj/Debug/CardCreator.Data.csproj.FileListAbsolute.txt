@@ -1,0 +1,6 @@
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.Data\bin\Debug\CardCreator.Data.exe.config
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.Data\bin\Debug\CardCreator.Data.exe
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.Data\bin\Debug\CardCreator.Data.pdb
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.Data\obj\Debug\CardCreator.Data.csprojResolveAssemblyReference.cache
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.Data\obj\Debug\CardCreator.Data.exe
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.Data\obj\Debug\CardCreator.Data.pdb
