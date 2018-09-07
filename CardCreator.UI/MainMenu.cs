@@ -67,7 +67,7 @@ namespace CardCreator.UI
     }
 
 
-}
+
             }
             catch
             {
