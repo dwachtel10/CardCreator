@@ -8,6 +8,8 @@ namespace CardCreator.UI
 {
     public class ConsoleIO
     {
+        public const string HorizontalLine = "==========================================================";
+
         public static string GetRequiredStringFromUser(string prompt)
         {
             Console.Write(prompt);
@@ -35,6 +37,35 @@ namespace CardCreator.UI
 
             }
             return numberResult;
+        }
+
+        public static string GetRequiredYesOrNoFromUser(string prompt)
+        {
+            Console.WriteLine(prompt);
+            string input = Console.ReadLine();
+
+            if (string.IsNullOrEmpty(input) || !(input == "Y" || input == "N"))
+            {
+                Console.WriteLine("Please enter Y or N.");
+                Console.WriteLine("Press any key to continue.");
+                Console.ReadKey();
+            }
+            return input;
+        }
+
+        public static string GetOptionalStringFromUser(string prompt)
+        {
+            Console.WriteLine(prompt);
+            string input = Console.ReadLine();
+
+            if (string.IsNullOrEmpty(input))
+            {
+                return null;
+            }
+            else
+            {
+                return input;
+            }
         }
 
     }

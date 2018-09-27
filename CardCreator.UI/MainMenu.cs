@@ -15,9 +15,9 @@ namespace CardCreator.UI
         {
             try
             {
-                Console.WriteLine("--------------------------");
+                Console.WriteLine(ConsoleIO.HorizontalLine);
                 Console.WriteLine("Alien Game Card Management System");
-                Console.WriteLine("--------------------------");
+                Console.WriteLine(ConsoleIO.HorizontalLine);
                 Console.WriteLine("1. Aliens");
                 Console.WriteLine("2. Jobs");
                 Console.WriteLine("3. Boosts");
@@ -39,47 +39,49 @@ namespace CardCreator.UI
                             alien.Execute();
                             break;
 
-                        case "2":
-                            JobWorkflow job = new JobWorkflow();
-                            validInput = true;
-                            job.Execute();
-                            break;
+                        //case "2":
+                        //    JobWorkflow job = new JobWorkflow();
+                        //    validInput = true;
+                        //    job.Execute();
+                        //    break;
 
-                        case "3":
-                            BoostWorkflow boost = new BoostWorkflow();
-                            validInput = true;
-                            boost.Execute();
-                            break;
+                        //case "3":
+                        //    BoostWorkflow boost = new BoostWorkflow();
+                        //    validInput = true;
+                        //    boost.Execute();
+                        //    break;
 
-                        case "4":
-                            EventWorkflow events = new EventWorkFlow();
-                            validInput = true;
-                            events.Execute();
-                            break;
+                        //case "4":
+                        //    EventWorkflow events = new EventWorkFlow();
+                        //    validInput = true;
+                        //    events.Execute();
+                        //    break;
 
                         case "Q":
                             return;
                         default:
                             Console.WriteLine("Invalid selection.  Please enter one of the above options.");
                             break;
-        }
+                    }
 
-    }
-
-
-
-            }
-            catch
-            {
-                using (
-                    StreamWriter sw =
-                    File.AppendText(//file name
-                        )
-                    )
-                {
-                    Console.WriteLine("An unhandled exception has occurred.  Shutting down.");
-                    sw.WriteLine($"{DateTime.Now}: An unhandled exception occurred.");
                 }
+
+
+
             }
+            catch { }
+            //{
+            //    using (
+            //        StreamWriter sw =
+            //        File.AppendText(//file name
+            //            )
+            //        )
+            //    {
+            //        Console.WriteLine("An unhandled exception has occurred.  Shutting down.");
+            //        sw.WriteLine($"{DateTime.Now}: An unhandled exception occurred.");
+            //    }
+            //}
+        }
     }
+}
   

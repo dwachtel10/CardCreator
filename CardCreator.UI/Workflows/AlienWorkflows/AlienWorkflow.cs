@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CardCreator.UI.Workflows.AlienWorkflows;
+
+
+
 
 namespace CardCreator.UI.Workflows
 {
@@ -27,17 +31,17 @@ namespace CardCreator.UI.Workflows
                 string input = Console.ReadLine();
                 switch(input)
                 { 
-                    case "1":
-                        ViewAllAliensWorkflow viewAll = new ViewAllAliensWorkflow();
-                        validInput = true;
-                        viewAll.Execute();
-                        break;
+                    //case "1":
+                    //    ViewAllAliensWorkflow viewAll = new ViewAllAliensWorkflow();
+                    //    validInput = true;
+                    //    viewAll.Execute();
+                    //    break;
 
-                    case "2":
-                        ViewAlienWorkflow view = new ViewAlienWorkflow();
-                        validInput = true;
-                        view.Execute();
-                        break;
+                    //case "2":
+                    //    ViewAlienWorkflow view = new ViewAlienWorkflow();
+                    //    validInput = true;
+                    //    view.Execute();
+                    //    break;
 
                     case "3":
                         AddAlienWorkflow add = new AddAlienWorkflow();
@@ -45,16 +49,16 @@ namespace CardCreator.UI.Workflows
                         add.Execute();
                         break;
 
-                    case "4":
-                        EditAlienWorkflow edit = new EditAlienWorkflow();
-                        validInput = true;
-                        edit.Execute();
-                        break;
-                    case "5":
-                        DeleteAlienWorkflow delete = new DeleteAlienWorkflow();
-                        validInput = true;
-                        delete.Execute();
-                        break;
+                    //case "4":
+                    //    EditAlienWorkflow edit = new EditAlienWorkflow();
+                    //    validInput = true;
+                    //    edit.Execute();
+                    //    break;
+                    //case "5":
+                    //    DeleteAlienWorkflow delete = new DeleteAlienWorkflow();
+                    //    validInput = true;
+                    //    delete.Execute();
+                    //    break;
                     case "Q":
                         Console.Clear();
                         MainMenu.Main();

@@ -1,1 +1,10 @@
 C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.UI\obj\Debug\CardCreator.UI.csprojResolveAssemblyReference.cache
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.UI\bin\Debug\CardCreator.UI.exe.config
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.UI\bin\Debug\CardCreator.UI.exe
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.UI\bin\Debug\CardCreator.UI.pdb
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.UI\bin\Debug\CardCreator.dll
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.UI\bin\Debug\Microsoft.Web.XmlTransform.dll
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.UI\bin\Debug\NuGet.Core.dll
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.UI\bin\Debug\CardCreator.pdb
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.UI\obj\Debug\CardCreator.UI.exe
+C:\Users\25493\documents\visual studio 2015\Projects\CardCreator\CardCreator.UI\obj\Debug\CardCreator.UI.pdb
